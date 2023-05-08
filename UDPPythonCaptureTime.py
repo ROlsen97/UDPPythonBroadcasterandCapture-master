@@ -20,5 +20,5 @@ while True:
     #print(ClockReadDe)
 
     
-    api_url = "https://localhost:7118/api/ClockReads"
+    api_url = "https://clockapi.azurewebsites.net/api/ClockReads"
     request = requests.post(api_url, json=ClockRead,verify=False)
